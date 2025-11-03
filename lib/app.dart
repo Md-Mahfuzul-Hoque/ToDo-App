@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Login Page.dart';
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -8,8 +10,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      title: ,
-
+      title: 'Todo App',
+      home: LoginPage(),
     );
   }
 }
